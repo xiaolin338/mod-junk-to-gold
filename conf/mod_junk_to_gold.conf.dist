@@ -59,7 +59,7 @@
 JunkToGold.Enable = 1
 JunkToGold.MinQuality = 0
 JunkToGold.MaxQuality = 0
-JunkToGold.ShowMessage = 1
+JunkToGold.ShowMessage = 0
 JunkToGold.MinLevel = 1
 JunkToGold.OnlyForBots = 1
 JunkToGold.ExcludeBOP = 1
