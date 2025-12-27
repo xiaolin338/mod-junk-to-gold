@@ -1,0 +1,68 @@
+[worldserver]
+###################################################################################################
+# JunkToGold 模块配置
+#
+#    JunkToGold.Enable = 1
+#        描述：是否启用自动出售垃圾物品功能
+#        默认：1（启用）
+#        选项：0=禁用，1=启用
+#
+#    JunkToGold.MinQuality = 0
+#        描述：出售物品的最低品质
+#        默认：0（灰色）
+#        选项：0=灰色，1=白色，2=绿色，3=蓝色，4=紫色，5=橙色
+#
+#    JunkToGold.MaxQuality = 0
+#        描述：出售物品的最高品质
+#        默认：0（灰色）
+#        选项：0=灰色，1=白色，2=绿色，3=蓝色，4=紫色，5=橙色
+#
+#    JunkToGold.ShowMessage = 0
+#        描述：是否显示出售信息（机器人建议关闭，避免刷屏）
+#        默认：0（不显示）
+#        选项：0=不显示，1=显示
+#
+#    JunkToGold.MinLevel = 1
+#        描述：使用此功能的最低玩家等级
+#        默认：1
+#        范围：1-255
+#
+#    JunkToGold.OnlyForBots = 1
+#        描述：是否只对机器人玩家生效
+#        默认：1（只对机器人）
+#        选项：0=所有玩家，1=只对机器人
+#        注意：机器人判定规则：
+#              - 如果accountId存在于account_tutorial表中，判定为非机器人
+#              - 如果accountId不存在于account_tutorial表中，判定为机器人
+#
+#    JunkToGold.ExcludeBOP = 1
+#        描述：是否排除拾取绑定物品
+#        默认：1（排除）
+#        选项：0=包含，1=排除
+#
+#    JunkToGold.ExcludeQuestItems = 1
+#        描述：是否排除任务物品
+#        默认：1（排除）
+#        选项：0=包含，1=排除
+#
+#    JunkToGold.Blacklist = ""
+#        描述：不出售的物品ID列表（用逗号分隔）
+#        默认：空
+#        示例：12345,67890,54321
+#
+#    JunkToGold.Whitelist = ""
+#        描述：只出售的物品ID列表（用逗号分隔，如果设置则只处理这些物品）
+#        默认：空
+#        示例：12345,67890,54321
+###################################################################################################
+
+JunkToGold.Enable = 1
+JunkToGold.MinQuality = 0
+JunkToGold.MaxQuality = 0
+JunkToGold.ShowMessage = 1
+JunkToGold.MinLevel = 1
+JunkToGold.OnlyForBots = 1
+JunkToGold.ExcludeBOP = 1
+JunkToGold.ExcludeQuestItems = 1
+JunkToGold.Blacklist = ""
+JunkToGold.Whitelist = ""
